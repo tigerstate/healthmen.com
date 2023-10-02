@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.fotter-section video {
+    object-fit: cover;
+    overflow: auto;
+    position: absolute;
+    height: 44rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    filter: brightness(0.3);
+}

@@ -1,0 +1,337 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-family: 500;
+   
+
+}
+body,html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.header-section img{
+    position: absolute;
+    z-index: -1;
+    /* width: 100%; */
+    height: 47rem;
+    top: 5rem;
+    left: 22rem;
+ 
+    
+}
+
+
+.navwar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rebeccapurple; */
+    /* background: linear-gradient(rgba(0,0,0,0),rgba(#f35900)); */
+    /* background: linear-gradient(black, red); */
+    background-color: rgb(189, 204, 208);
+
+    width: 100%;
+    min-height: 4rem;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    /* margin: 1rem; */
+}
+.logo-in-class{
+    color: rgb(0, 0, 0);
+    font-size: 2.3rem;
+    font-weight: 800;
+   margin-left: 2rem;
+}
+.ul-list a{
+    color: rgb(60, 59, 59);
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-right: 3rem;
+    font-weight: 600;
+   
+}
+.ul-list :hover{
+    text-decoration: underline;
+    transition: 0.5s all ease-in;
+    
+
+}
+
+.title-business{
+   
+    /* border: 2px solid red; */
+    width: 30rem;
+    min-height: 10rem;
+    margin-top: 18rem;
+    margin-left: 5rem;
+    padding: 2rem;
+}
+.font-text{
+    font-size: 1.1rem;
+}
+.Get-started{
+    position: relative;
+    top: 1rem;
+  
+
+}
+.Get-started :hover{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
+}
+.Get-started #get-more{
+    font-size: 1.3rem;
+    width: 4rem;
+    min-height: 1rem;
+    font-size: 1.3rem;
+    width: 9rem;
+    min-height: 2.6rem;
+    border-radius: 0.3rem;
+    background: #08656e;
+    color: white;
+    font-weight: 600;
+    outline: none;
+    border: 1px solid white;
+}
+
+.yoga-image img{
+    width: 33rem;
+    position: relative;
+    top: 5rem;
+    left: 19rem;
+}
+.inner-section{
+    display: flex;
+}
+
+.middle-section-title{
+    display: flex;
+   
+}
+
+.intro-yoga{
+    height: 35rem;
+    width: 45rem;
+    padding: 2rem;
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    top: 12rem;
+    left: 5rem;
+    font-size: 1.8rem;
+}
+.image1-yoga img{
+    width: 28rem;
+    position: relative;
+    top: 24rem;
+    left: 12rem;
+}
+.view-more{
+    position: relative;
+    top: 1rem;
+} 
+.view-more #get-more1{
+    font-size: 1.2rem;
+    width: 9rem;
+    min-height: 2.2rem;
+    color: #0c0808;
+    outline: none;
+    position: relative;
+   
+    left: 7rem;
+    background: #d9dbde;
+    border: transparent;
+    text-decoration: underline;
+
+
+}
+
+.view-more :hover{
+    color: blue;
+}
+
+.typeOfyoga{
+    height: 40rem;
+    width: 100%;
+    margin-top: 11rem;
+    /* display: flex; */
+    /* justify-content: center; */
+    background: #e0ecf3;
+    /* border: 2px solid red; */
+}
+.detail-yoga{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    position: relative;
+    top: 2rem;
+    font-weight: 800;
+
+}
+.yoga-box{
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+    /* flex-wrap: wrap; */
+
+}
+.box1{
+  
+    width: 29rem;
+    height: 26rem;
+   /* border: 2px solid red; */
+   background: linear-gradient(#04ff0b,#0c0e0ced);
+   margin: 1rem;
+
+}
+.box1 img{
+    width: 27.3rem;
+    display: flex;
+    justify-content: center;
+    height: 18rem;
+}
+  
+.yogatitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: white;
+    position: relative;
+    top: 0.3rem;
+    
+    
+}
+.yogadetails{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 1rem;
+    color: white;
+   
+}
+
+.before-footer{
+    height: 40rem;
+    width: 100%;
+   
+    background: linear-gradient( white, rgba(145, 207, 227));
+    /* background: #feffff; */
+}
+.after-text{
+  
+    font-size: 5rem;
+    font-weight: 700;
+    position: relative;
+    display: flex;
+    margin-left: 3rem;
+    top: 6rem;
+    width: 46rem;
+}
+.before-image img{
+    width: 31rem;
+    display: flex;
+    margin-left: auto;
+    position: relative;
+    bottom: 16rem;
+    right: 2rem;
+    opacity: 0.8;
+    /* border: 2px solid red; */
+}
+
+.about-healthmen{
+    position: relative;
+    top: 9rem;
+    width: 31rem;
+    left: 3rem;
+    font-size: 1.4rem;
+
+}
+
+.footer-section{
+    height: 30rem;
+    width: 100%;
+   background-color: rgb(63 85 85);
+}
+.about-footer{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.about-footer li{
+    margin-top: 3rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.inside-list{
+    color: rgb(167 165 165);
+    position: relative;
+    top: 2rem;
+    margin: 10px;
+}
+.socail-media{
+    margin-top: auto;
+    list-style: none;
+    font-size: 2rem;
+    display: flex;
+    position: relative;
+    top: 5rem;
+    left: 5rem;
+}
+.socail-media .fa-brands{
+    color: white;
+    margin: 12px;
+}
+.text-input{
+    position: relative;
+    left: 37rem;
+    top: 2.5rem;
+}
+#yourEmail{
+    width: 23rem;
+    height: 2.5rem;
+    border-radius: 0.2rem;
+    border: transparent;
+    font-size: 1rem;
+    background: #cecece;
+}
+.LoginNow{
+
+
+}
+#JoinNow{
+   
+    font-size: 1.2rem;
+    width: 9rem;
+    min-height: 2.4rem;
+    border-radius: 0.3rem;
+    background: #000000;
+    color: white;
+    font-weight: 600;
+    outline: none;
+    margin-top: 1rem;
+    border: transparent
+}
+
+.copy-write-section{
+ 
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 6.5rem;
+    color: white;
+}
+.hover-button:hover{
+background-color: #08656e;
+}
+
+.LoginNow :hover{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
+} 
